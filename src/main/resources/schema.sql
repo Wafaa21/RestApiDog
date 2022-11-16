@@ -1,0 +1,7 @@
+CREATE TABLE dog (
+  id BIGINT NOT NULL,
+   name VARCHAR(255) NULL,
+   breed VARCHAR(255) NULL,
+   origin VARCHAR(255) NULL,
+   CONSTRAINT pk_dog PRIMARY KEY (id)
+);
